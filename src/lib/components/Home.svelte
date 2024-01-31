@@ -22,6 +22,6 @@
 			Download for China
 		</a>
 	</div>
-	<p class="mt-5 text-xs font-normal text-zinc-600 text-center">Supports macOS & Windows</p>
-	<p class="text-xs font-normal text-zinc-600 text-center">Version: 2.0.0, Updated: 02/02/2024</p>
+	<p class="mt-5 text-xs font-normal text-zinc-500 text-center">Supports macOS & Windows</p>
+	<p class="text-xs font-normal text-zinc-500 text-center">Version: 2.0.0, Updated: 02/02/2024</p>
 </section>

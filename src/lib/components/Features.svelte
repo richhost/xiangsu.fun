@@ -29,7 +29,7 @@
 	{#each contents as item}
 		<article>
 			<h3 class="text-xl font-medium">{item.title}</h3>
-			<p class="text-zinc-600">
+			<p class="text-zinc-500">
 				{item.description}
 			</p>
 		</article>
