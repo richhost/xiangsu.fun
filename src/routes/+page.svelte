@@ -5,6 +5,7 @@
 	import Navbar from '$lib/components/Navbar.svelte';
 	import Home from '$lib/components/Home.svelte';
 	import Features from '$lib/components/Features.svelte';
+	import Showcase from '$lib/components/Showcase.svelte';
 </script>
 
 <Navbar />
@@ -12,4 +13,5 @@
 <main>
 	<Home />
 	<Features />
+	<Showcase />
 </main>

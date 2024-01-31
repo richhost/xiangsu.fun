@@ -3,8 +3,16 @@
 @tailwind utilities;
 
 @layer base {
-    body {
-        font-family: "Bricolage Grotesque Variable", system-ui, —apple-system, Segoe UI, Rototo,
-        Helvetica, Arial, sans-serif;;
-    }
+	body {
+		font-family:
+			'Bricolage Grotesque Variable',
+			system-ui,
+			—apple-system,
+			Segoe UI,
+			Rototo,
+			Helvetica,
+			Arial,
+			sans-serif;
+		@apply antialiased;
+	}
 }
