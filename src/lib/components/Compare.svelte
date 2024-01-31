@@ -30,7 +30,7 @@
 </script>
 
 <div
-	class="relative cursor-col-resize overflow-hidden inline-block"
+	class="relative cursor-col-resize overflow-hidden inline-block touch-none"
 	on:pointerdown={onpointerdown}
 	on:pointermove={onpointermove}
 	on:pointerup={onpointerup}
