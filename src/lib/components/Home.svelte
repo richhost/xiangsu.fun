@@ -1,5 +1,5 @@
-<section id="home" class="px-5 font-semibold">
-	<div class="max-w-xl mx-auto my-6"><img src="https://picsum.photos/800/500" alt="img" /></div>
+<section id="home" class="px-5 font-semibold py-10">
+	<div class="max-w-4xl mx-auto py-6"><img src="/1.webp" alt="img" /></div>
 
 	<div class="text-center text-primary mb-2">Save your storage now</div>
 	<h1 class="mx-auto text-[clamp(32px,4vw,48px)] text-center leading-10">

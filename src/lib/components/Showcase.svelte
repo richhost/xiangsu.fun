@@ -2,11 +2,14 @@
 	import Compare from './Compare.svelte';
 </script>
 
-<section id="showcase" class="py-20 max-w-7xl w-full px-5 mx-auto flex flex-wrap gap-10">
-	<div class="w-full md:w-1/2 order-last">
+<section
+	id="showcase"
+	class="py-20 max-w-7xl w-full px-5 mx-auto grid grid-cols-1 md:grid-cols-2 gap-10"
+>
+	<div class="order-last md:order-1">
 		<Compare />
 	</div>
-	<div class="w-full md:w-1/2">
+	<div class="order-2">
 		<p class="text-primary mb-4 text-sm font-medium">Visually Lossless Compression</p>
 		<h3 class="text-[clamp(18px,4vw,40px)] font-medium leading-none">High Compression Ratio</h3>
 		<p class="my-4">

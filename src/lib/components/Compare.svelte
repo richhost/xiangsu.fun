@@ -1,7 +1,7 @@
 <script lang="ts">
 	let container: HTMLElement;
 
-	let percentage = 40;
+	let percentage = 50;
 	let active = false;
 
 	const handleMove = (event: PointerEvent) => {

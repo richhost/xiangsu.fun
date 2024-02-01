@@ -16,3 +16,8 @@
 		@apply antialiased;
 	}
 }
+
+html,
+body {
+	@apply scroll-smooth;
+}
