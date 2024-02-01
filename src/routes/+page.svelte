@@ -15,3 +15,5 @@
 	<Features />
 	<Showcase />
 </main>
+
+<footer class="py-10 text-xs text-center text-zinc-500">2024 ©️ Pixzip</footer>

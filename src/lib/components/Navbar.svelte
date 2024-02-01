@@ -1,7 +1,7 @@
 <header class="shadow sticky top-0 bg-white">
-	<nav class="h-12 xl:h-16 mx-auto max-w-7xl px-5 w-full flex items-center justify-between">
-		<a href="#home" class="flex items-center justify-center gap-1 text-lg font-medium">
-			<img class="w-8 h-8 rounded-md" src="/favicon.svg" alt="logo" />Pixzip
+	<nav class="h-14 mx-auto max-w-7xl px-5 w-full flex items-center justify-between">
+		<a href="#home" class="flex items-center justify-center gap-2 font-medium">
+			<img class="w-7 h-7 rounded-md" src="/favicon.svg" alt="logo" />Pixzip
 		</a>
 
 		<div class="space-x-8 hidden md:block text-sm text-zinc-500">

@@ -4,8 +4,17 @@
 	let percentage = 40;
 	let active = false;
 
+	const handleMove = (event: PointerEvent) => {
+		let left = event.clientX - container.getBoundingClientRect().left;
+		if (left < 0) left = 0;
+		let rightEdge = container.offsetWidth;
+		if (left > rightEdge) left = rightEdge;
+		percentage = (left / container.offsetWidth) * 100;
+	};
+
 	const onpointerdown = (event: PointerEvent) => {
 		event.preventDefault();
+		handleMove(event);
 		active = true;
 		const target = event.target as HTMLElement;
 		target.setPointerCapture(event.pointerId);
@@ -13,11 +22,7 @@
 
 	const onpointermove = (event: PointerEvent) => {
 		if (!active) return;
-		let left = event.clientX - container.getBoundingClientRect().left;
-		if (left < 0) left = 0;
-		let rightEdge = container.offsetWidth;
-		if (left > rightEdge) left = rightEdge;
-		percentage = (left / container.offsetWidth) * 100;
+		handleMove(event);
 	};
 
 	const onpointerup = (event: PointerEvent) => {
@@ -30,20 +35,20 @@
 </script>
 
 <div
-	class="relative cursor-col-resize overflow-hidden inline-block touch-none"
+	class="relative cursor-col-resize overflow-hidden inline-block touch-pan-y rounded-md"
 	on:pointerdown={onpointerdown}
 	on:pointermove={onpointermove}
 	on:pointerup={onpointerup}
 	bind:this={container}
 >
 	<img
-		src="https://picsum.photos/400/200"
+		src="/dog.jpg"
 		alt=""
 		draggable="false"
 		style="clip-path: polygon(0 0, {percentage}% 0, {percentage}% 100%, 0 100%);"
 	/>
 	<img
-		src="https://picsum.photos/id/404/400/200"
+		src="/dog-min.jpg"
 		class="absolute top-0"
 		alt=""
 		draggable="false"
