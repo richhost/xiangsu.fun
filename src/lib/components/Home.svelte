@@ -14,7 +14,7 @@
 			>Free Download</a
 		>
 		<a
-			href="https://www.123pan.com/s/072SVv-Dl7cv"
+			href="https://www.123pan.com/s/072SVv-0Eecv.html"
 			target="_blank"
 			rel="noreferrer"
 			class="hover:drop-shadow-lg transition-all text-primary active:text-muted font-normal text-sm hidden md:block"
