@@ -4,10 +4,10 @@
 			<img class="w-7 h-7 rounded-md" src="/favicon.svg" alt="logo" />Pixzip
 		</a>
 
-		<div class="space-x-8 hidden md:block text-sm text-zinc-500">
+		<!-- <div class="space-x-8 hidden md:block text-sm text-zinc-500">
 			<a href="#features">Features</a>
 			<a href="#showcase">Showcase</a>
-		</div>
+		</div> -->
 
 		<a href="https://github.com/richhost/pixzip" target="_blank"
 			><svg class="w-6 h-6" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
