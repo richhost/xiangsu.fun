@@ -1,3 +1,23 @@
+<script lang="ts">
+	import { onMount } from 'svelte';
+
+	let version = '';
+	let date = '';
+
+	onMount(() => {
+		fetch('https://api.github.com/repos/richhost/pixzip/releases/latest').then((resp) => {
+			resp.json().then((data) => {
+				version = data.tag_name.replace('v', '');
+				date = new Date(data.published_at).toLocaleDateString('en-US', {
+					year: 'numeric',
+					month: '2-digit',
+					day: '2-digit'
+				});
+			});
+		});
+	});
+</script>
+
 <section id="home" class="px-5 font-semibold py-10">
 	<div class="max-w-4xl mx-auto py-6">
 		<img src="/1.webp" alt="screenshot" class="aspect-[2000/1481]" />
@@ -25,5 +45,7 @@
 		</a>
 	</div>
 	<p class="mt-5 text-xs font-normal text-zinc-500 text-center">Supports macOS & Windows</p>
-	<p class="text-xs font-normal text-zinc-500 text-center">Version: 2.0.0, Updated: 02/02/2024</p>
+	<p class="text-xs font-normal text-zinc-500 text-center">
+		Version: {version}, Updated: {date}
+	</p>
 </section>
