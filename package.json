@@ -12,28 +12,29 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@fontsource-variable/bricolage-grotesque": "^5.0.4",
-		"@fontsource-variable/inter": "^5.0.16",
+		"@fontsource-variable/bricolage-grotesque": "^5.0.5",
+		"@fontsource-variable/inter": "^5.0.17",
 		"@sveltejs/adapter-auto": "^3.1.1",
-		"@sveltejs/kit": "^2.5.2",
+		"@sveltejs/kit": "^2.5.3",
 		"@sveltejs/vite-plugin-svelte": "^3.0.2",
 		"@types/eslint": "8.56.0",
 		"@typescript-eslint/eslint-plugin": "^6.21.0",
 		"@typescript-eslint/parser": "^6.21.0",
-		"autoprefixer": "^10.4.17",
+		"autoprefixer": "^10.4.18",
 		"eslint": "^8.57.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-svelte": "^2.35.1",
 		"postcss": "^8.4.35",
 		"prettier": "^3.2.5",
 		"prettier-plugin-svelte": "^3.2.2",
-		"svelte": "^4.2.12",
-		"svelte-check": "^3.6.5",
-		"svelte-meta-tags": "^3.1.0",
+		"svelte": "5.0.0-next.74",
+		"svelte-check": "^3.6.6",
+		"svelte-compare-slider": "^0.0.1",
+		"svelte-meta-tags": "^3.1.1",
 		"tailwindcss": "^3.4.1",
 		"tslib": "^2.6.2",
-		"typescript": "^5.3.3",
-		"vite": "^5.1.4"
+		"typescript": "^5.4.2",
+		"vite": "^5.1.5"
 	},
 	"type": "module"
 }
